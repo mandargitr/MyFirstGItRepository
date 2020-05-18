@@ -15,6 +15,10 @@ namespace GitTestApiApplication
 {
     public class Startup
     {
+        /// <summary>
+        /// added by mandar 15/08/2020 --- code change
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
